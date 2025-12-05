@@ -367,7 +367,6 @@ To render the desired pointcloud some of the things need to be taken care such a
    ```
    var CONFIG = './config/config002.json';
    ```
-## It is advisable to use VS-CODE for the entire process
 
 
 
