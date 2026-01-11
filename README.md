@@ -47,7 +47,9 @@ and below is my jetson specification
 based on your specification get to know your jetson version from this [link](https://www.stereolabs.com/blog/nvidia-jetson-l4t-and-jetpack-support/)
 in my case my release version is 35.2.1 then my jetpack version will be jetpack 5.1, Next step is to visit this [link](https://elinux.org/Jetson_Zoo#PyTorch_.28Caffe2.29) and download pytorch .whl file, In my case I'm downloading Pytorch version 2.0.0
 
-# Step 3: Installing PyTorch in our envioronment
+
+
+ # Step 3: Installing PyTorch in our envioronment
 
 Jetson uses ARM architecture, so PyTorch must be installed from a special .whl file.
 
@@ -69,7 +71,13 @@ python3 -m pip install --upgrade pip; python3 -m pip install aiohttp numpy=='1.1
 
 # Step 4: Install Remaining Dependencies
 
+Install other Python libraries needed by DROID-SLAM:
 
+```Python
+pip install opencv-python rawpy einops matplotlib pandas GPUtil
+pip install scikit-image scikit-learn tqdm open3d gdown
+pip install evo --upgrade --no-binary evo
+```
 
 # DRIOD-SLAM
 After successful installation of pytorch now we can move ahead to implement DROID-SLAM in Jetson AGX developer kit, before proceding activate the envioronment which we have created before
