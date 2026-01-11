@@ -88,10 +88,15 @@ python3 setup.py install
 
 Download the model from this [link](https://drive.google.com/file/d/1PpqVt1H4maBa_GbPJp4NwxRsd9jk-elh/view)
 you can download the dataset from the below code
+
+# Step 6: Download Sample Data
+
 ```
 ./tools/download_sample_data.sh
 ```
 after downloading the dataset locate demo.py and the run below given codes for excecution of DROID-SLAM
+
+
 ```
 python3 demo.py --imagedir=data/abandonedfactory --calib=calib/tartan.txt --stride=2
 ```
@@ -107,17 +112,46 @@ python3 demo.py --imagedir=data/mav0/cam0/data --calib=calib/euroc.txt --t0=150
 ```
 python3 demo.py --imagedir=data/rgbd_dataset_freiburg3_cabinet/rgb --calib=calib/tum3.txt
 ```
-To run DROID-SLAM on custom dataset follow the below steps
+
+# Step 7: Run DROID-SLAM on Sample Data
+
+You can now run DROID-SLAM using the demo script.
+
 1. create a folder in data folder you can give any name it doesn`t matter for example i had created a folder named custom_dataset and move all the captured frames to the folder
 2. create text file in calib folder and paste intrinsic parameters of the camera which you have used to captured data in my case i have used OAKD camera and i had created oak.txt for storing intrinsic parameter
 3. run the below command to run DROID-SLAM on custom dataset
 4. You can refer this [git](https://github.com/aartighatkesar/Camera_Calibration.git) to find intrinsic parameter`s of your camera
+
+
+# Step 8: Run DROID-SLAM on Your Own Data
+
 ```
 python3 demo.py --imagedir=data/custom_datset --calib=calib/oak.txt --stride=2
 ```
 `Note: data/"folder you have named" same goes for .txt in calib folder`<br>
 To capture frames for custom dataset you can use the below code 
 `Note that below code is only applicable for OAK-D camera
+
+
+Each command:
+	•	reads images from a folder
+	•	uses a camera calibration file
+	•	outputs camera poses and 3D points
+
+#Step 9: Capture Frames Using OAK-D Camera
+
+If you are using an OAK-D camera, you can capture frames using a Python script (provided in the repository).
+This script saves frames as numbered images, which DROID-SLAM can process.
+
+Step 10: Save 3D Points and Camera Poses
+
+By modifying the DROID-SLAM visualization code:
+	•	3D points are saved as points.ply
+	•	Camera poses are saved as camera.ply
+
+These files can be used later for visualization or analysis.
+
+
 ```
 import sys
 import numpy as np
