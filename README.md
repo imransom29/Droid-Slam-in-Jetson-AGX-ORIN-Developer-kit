@@ -81,25 +81,10 @@ pip install evo --upgrade --no-binary evo
 
 # Step 5: Clone and Install DROID-SLAM
 
-After successful installation of pytorch now we can move ahead to implement DROID-SLAM in Jetson AGX developer kit, before proceding activate the envioronment which we have created before
-```
-conda activate slam
-```
-and also run the below command for install some other dependencies
-```
-pip3 install opencv-python rawpy einops matplotlib pandas GPUtil scikit-image scikit-learn tqdm open3d gdown
-```
-```
-pip3 install evo --upgrade --no-binary evo
-```
-clone the DROID-SLAM repo with `--recursive flag`
-```
 git clone --recursive https://github.com/princeton-vl/DROID-SLAM.git
-```
-move to the directory where the setup.py is located in that directory run the below code
-```
+cd DROID-SLAM
 python3 setup.py install
-```
+
 Download the model from this [link](https://drive.google.com/file/d/1PpqVt1H4maBa_GbPJp4NwxRsd9jk-elh/view)
 you can download the dataset from the below code
 ```
