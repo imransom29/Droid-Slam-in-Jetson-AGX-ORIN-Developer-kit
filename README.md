@@ -47,7 +47,7 @@ and below is my jetson specification
 based on your specification get to know your jetson version from this [link](https://www.stereolabs.com/blog/nvidia-jetson-l4t-and-jetpack-support/)
 in my case my release version is 35.2.1 then my jetpack version will be jetpack 5.1, Next step is to visit this [link](https://elinux.org/Jetson_Zoo#PyTorch_.28Caffe2.29) and download pytorch .whl file, In my case I'm downloading Pytorch version 2.0.0
 
-## Step 3: Installing PyTorch in our envioronment
+# Step 3: Installing PyTorch in our envioronment
 
 
 Before installing PyTorch, Excecute the below given commands,
