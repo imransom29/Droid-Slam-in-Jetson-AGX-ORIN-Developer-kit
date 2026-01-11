@@ -138,12 +138,12 @@ Each command:
 	•	uses a camera calibration file
 	•	outputs camera poses and 3D points
 
-#Step 9: Capture Frames Using OAK-D Camera
+# Step 9: Capture Frames Using OAK-D Camera
 
 If you are using an OAK-D camera, you can capture frames using a Python script (provided in the repository).
 This script saves frames as numbered images, which DROID-SLAM can process.
 
-Step 10: Save 3D Points and Camera Poses
+# Step 10: Save 3D Points and Camera Poses
 
 By modifying the DROID-SLAM visualization code:
 	•	3D points are saved as points.ply
