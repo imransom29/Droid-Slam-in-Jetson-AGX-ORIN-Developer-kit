@@ -19,6 +19,7 @@ First, create a separate Python environment so dependencies do not conflict with
 
 ```Python
 conda create --name slam python=3.7.11
+conda activate slam
 ```
 
 # Check Jetpack version
