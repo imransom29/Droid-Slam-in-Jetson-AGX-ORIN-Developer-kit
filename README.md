@@ -7,6 +7,7 @@ DROID SLAM is an advanced SLAM system that utilizes RGB-D cameras for real-time 
 DROID-SLAM works with image sequences (RGB or RGB-D) and estimates:
 
 • where the camera is moving (camera pose)
+
 • what the surrounding environment looks like (3D points)
 
 The goal of this guide is to help someone set up the environment, run DROID-SLAM, and visualize the results, step by step.
