@@ -79,7 +79,8 @@ pip install scikit-image scikit-learn tqdm open3d gdown
 pip install evo --upgrade --no-binary evo
 ```
 
-# DRIOD-SLAM
+# Step 5: Clone and Install DROID-SLAM
+
 After successful installation of pytorch now we can move ahead to implement DROID-SLAM in Jetson AGX developer kit, before proceding activate the envioronment which we have created before
 ```
 conda activate slam
