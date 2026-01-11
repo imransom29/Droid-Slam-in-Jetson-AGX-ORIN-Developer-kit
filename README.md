@@ -1,4 +1,7 @@
 # Implementation of Droid Slam in Jetson AGX ORIN Developer kit
+
+This project explains how to run DROID-SLAM, a system that builds a 3D map and tracks camera movement in real time, on the NVIDIA Jetson AGX Orin Developer Kit.
+
 DROID SLAM is an advanced SLAM system that utilizes RGB-D cameras for real-time mapping and localization. In this repository we have implemented DROID SLAM in Jetson AGX ORIN developer kit
 
 # Create a conda environment
