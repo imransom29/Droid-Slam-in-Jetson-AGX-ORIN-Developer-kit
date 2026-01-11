@@ -12,7 +12,7 @@ DROID-SLAM works with image sequences (RGB or RGB-D) and estimates:
 
 The goal of this guide is to help someone set up the environment, run DROID-SLAM, and visualize the results, step by step.
 
-⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 
 # Create a conda environment
