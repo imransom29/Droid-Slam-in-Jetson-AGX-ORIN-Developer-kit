@@ -210,7 +210,7 @@ if __name__ == '__main__':
     cv2.destroyAllWindows()
 
 ```
-Remember to change the output directory path <br>
+Remember to change the output directory path
 To save points and posses in .ply format you can update `visualization.py` in droidslam folder as
 ```
 import torch
