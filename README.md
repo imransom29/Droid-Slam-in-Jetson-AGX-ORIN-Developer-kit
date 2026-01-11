@@ -80,10 +80,11 @@ pip install evo --upgrade --no-binary evo
 ```
 
 # Step 5: Clone and Install DROID-SLAM
-
+```
 git clone --recursive https://github.com/princeton-vl/DROID-SLAM.git
 cd DROID-SLAM
 python3 setup.py install
+```
 
 Download the model from this [link](https://drive.google.com/file/d/1PpqVt1H4maBa_GbPJp4NwxRsd9jk-elh/view)
 you can download the dataset from the below code
