@@ -22,6 +22,16 @@ conda create --name slam python=3.7.11
 conda activate slam
 ```
 
+Example output:
+```Python
+R35 (release), REVISION: 2.1
+```
+From this, we know:
+
+• Jetson Linux version: 35.2.1
+
+• JetPack version: JetPack 5.1
+
 # Check Jetpack version
 `cat /etc/nv_tegra_release`
 ```
