@@ -14,6 +14,9 @@ The goal of this guide is to help someone set up the environment, run DROID-SLAM
 
 
 # Create a conda environment
+
+First, create a separate Python environment so dependencies do not conflict with other projects.
+
 ```Python
 conda create --name slam python=3.7.11
 ```
