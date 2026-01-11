@@ -13,7 +13,7 @@ DROID-SLAM works with image sequences (RGB or RGB-D) and estimates:
 The goal of this guide is to help someone set up the environment, run DROID-SLAM, and visualize the results, step by step.
 
 
-# Create a conda environment
+# Step 1: Create a conda environment
 
 First, create a separate Python environment so dependencies do not conflict with other projects.
 
@@ -32,7 +32,7 @@ From this, we know:
 
 • JetPack version: JetPack 5.1
 
-# Check Jetpack version
+# Step 2: Check Jetpack version
 `cat /etc/nv_tegra_release`
 ```
 cat /etc/nv_tegra_release
