@@ -4,6 +4,15 @@ This project explains how to run DROID-SLAM, a system that builds a 3D map and t
 
 DROID SLAM is an advanced SLAM system that utilizes RGB-D cameras for real-time mapping and localization. In this repository we have implemented DROID SLAM in Jetson AGX ORIN developer kit
 
+DROID-SLAM works with image sequences (RGB or RGB-D) and estimates:
+	•	where the camera is moving (camera pose)
+	•	what the surrounding environment looks like (3D points)
+
+The goal of this guide is to help someone set up the environment, run DROID-SLAM, and visualize the results, step by step.
+
+⸻
+
+
 # Create a conda environment
 ```Python
 conda create --name slam python=3.7.11
